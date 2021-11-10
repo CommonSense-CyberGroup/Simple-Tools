@@ -1,0 +1,1 @@
+This is a very basic port scanning Python script. It was initially developed for a use case where a tool like nmap or netcat were not available. This uses sockets in order to check if a given port is open on the requested host.
