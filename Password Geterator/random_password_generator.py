@@ -36,10 +36,15 @@ output_file = f'{project_root}password_generator_outputs.csv'
 def user_input():
     print()
 
+    #Define globals
+    global remove_chars
+
     #Define variables for defaults
     numbers = "Y"
     special_char = "Y"
     upper_lower = "Y"
+    remove_chars = ""
+    
 
     #Get the desired complexities from the user
     password_length = input("How long would you like the password to be? (Number only): ")
