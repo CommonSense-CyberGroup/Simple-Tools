@@ -2,3 +2,9 @@ This is a basic password generator written in Python where the user is able to s
 
 
 Outputs will be saved in a CSV file in the root of the script.
+
+
+
+___________________________________________________
+To Do:
+- GUI Support
