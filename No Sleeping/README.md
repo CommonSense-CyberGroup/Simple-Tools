@@ -1,0 +1,1 @@
+This is a super short script in order to keep the PC from going to sleep or to keep a user 'alive' in a chat program. This was made for a use case where the power settings are not able to be managed by the user.
