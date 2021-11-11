@@ -1,10 +1,10 @@
-﻿#This script will show Netstat info for a specific service on a Windows PC. The user will be asked what service they wish to examine
+#This script will show Netstat info for a specific service on a Windows PC. The user will be asked what service they wish to examine
 #and then it will pul all the traffic associated with that service. It will also try and resolve the destination IP to a FQDN to display to the user
 
 #Set initial variables
 $netstat = netstat -aonf | Select-String -pattern "(TCP|UDP)"
 $process_list = Get-Process
-$service = Read-Host -Prompt "Name of the service you wish to see: "
+$service = Read-Host -Prompt "Name of the service you wish to see"
 $ErrorActionPreference = 'silentlycontinue'
 
 #Run NetStat and get the output
